@@ -1,11 +1,14 @@
 html {
   font-size: var(--font-size);
+
   @media (--breakpoint-medium) {
     font-size: var(--font-size-m);
   }
+
   @media (--breakpoint-large) {
     font-size: var(--font-size-l);
   }
+
   background-color: var(--black);
 }
 
@@ -18,9 +21,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--off-white);
- }
+}
 
 p {
+  font-family: var(--body-font);
   margin-bottom: var(--spacing-medium);
   max-width: 32rem;
 }
@@ -74,23 +78,28 @@ sup {
 }
 
 @media (--breakpoint-not-small) {
-  .measure-ns  {
+  .measure-ns {
     max-width: 30em;
   }
+
   .measure-wide-ns {
     max-width: 34em;
   }
+
   .measure-narrow-ns {
     max-width: 20em;
   }
+
   .indent-ns {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-ns {
     font-variant: small-caps;
   }
+
   .truncate-ns {
     white-space: nowrap;
     overflow: hidden;
@@ -102,20 +111,25 @@ sup {
   .measure-m {
     max-width: 30em;
   }
+
   .measure-wide-m {
     max-width: 34em;
   }
+
   .measure-narrow-m {
     max-width: 20em;
   }
+
   .indent-m {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-m {
     font-variant: small-caps;
   }
+
   .truncate-m {
     white-space: nowrap;
     overflow: hidden;
@@ -127,20 +141,25 @@ sup {
   .measure-l {
     max-width: 30em;
   }
+
   .measure-wide-l {
     max-width: 34em;
   }
+
   .measure-narrow-l {
     max-width: 20em;
   }
+
   .indent-l {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-l {
     font-variant: small-caps;
   }
+
   .truncate-l {
     white-space: nowrap;
     overflow: hidden;
